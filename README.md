@@ -1,11 +1,11 @@
-(Assisgnment 1)
+Phase 1
 Overview:
 
 This TMUber program simulates a simple ride-sharing and delivery service like Uber App. 
 It allows users to register as drivers or customers, request rides or food deliveries, view and cancel existing service requests, 
 and manage users and drivers. The program provides a basic user interface for interacting with the TMUber system manager,
 which handles the core functionality of the application.
---------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 User and Driver Registration:
 - Validate all input data
 - Users can register as drivers or customers by providing their name, address, and other required details.
@@ -50,7 +50,7 @@ All Java files compiled successfully without encountering any errors, and the pr
 scripts. No discrepancies or issues were found during the testing phase.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-(Assisgnment 2)
+Phase 2
 Overview:
 Additional functionality and modifications are incorporated into assignment 1 to more accurately emulate a real sharing system like Uber app.
 
