@@ -1,6 +1,6 @@
-Phase 1
-Overview:
+**Phase 1**
 
+**Overview:**
 This TMUber program simulates a simple ride-sharing and delivery service like Uber App. 
 It allows users to register as drivers or customers, request rides or food deliveries, view and cancel existing service requests, 
 and manage users and drivers. The program provides a basic user interface for interacting with the TMUber system manager,
@@ -50,10 +50,11 @@ All Java files compiled successfully without encountering any errors, and the pr
 scripts. No discrepancies or issues were found during the testing phase.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-Phase 2
-Overview:
-Additional functionality and modifications are incorporated into assignment 1 to more accurately emulate a real sharing system like Uber app.
+**Phase 2**
 
+**Overview:**
+**Additional functionality and modifications are incorporated into assignment 1 to more accurately emulate a real sharing system like Uber app.
+**
 1. City Map: successfully implemented new method int GetCityZone(String address) that takes a valid address and returns zone number
 accordingly
 
@@ -136,7 +137,7 @@ InvalidLicensePlateException
 
 
 All Java files compiled successfully without encountering any errors, and the program's outputs matched the expected results as shown
-in demo video. However, if register a new user/driver and then load preregistered users or drivers. The new registered user/driver won't be
+in the demo video. However, if register a new user/driver and then load preregistered users or drivers. The new registered user/driver won't be
 saved. If register after loading preregistered users/drivers, the program works as expected. 
 Other than that, no discrepancies or issues were found during the testing phase.
 
