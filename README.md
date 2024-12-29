@@ -1,11 +1,12 @@
 **Phase 1**
 
 **Overview:**
+
 This TMUber program simulates a simple ride-sharing and delivery service like Uber App. 
 It allows users to register as drivers or customers, request rides or food deliveries, view and cancel existing service requests, 
 and manage users and drivers. The program provides a basic user interface for interacting with the TMUber system manager,
 which handles the core functionality of the application.
-------------------------------------------------------------------------------------------------------------------------------------------
+
 User and Driver Registration:
 - Validate all input data
 - Users can register as drivers or customers by providing their name, address, and other required details.
@@ -16,14 +17,14 @@ Requesting Rides:
 - Validate all input data
 - Users can request rides by specifying their account ID, pickup, and drop-off addresses.
 - Only one ride request is allowed per user.
-- Find the first available driver when request is made.
+- Find the first available driver when a request is made.
 - A minimum distance of more than one block is checked for a ride request.
 
 Requesting Deliveries:
 - Validate all input data
 - Users can request food deliveries by providing restaurant and food order details.
 - Users are prevented from making duplicate delivery requests.
-- Find the first available driver when request is made.
+- Find the first available driver when a request is made.
 - A minimum distance of more than one block is checked for a delivery request.
 
 Listing Drivers, Users, and Service Requests:
@@ -46,15 +47,15 @@ Revenues:
 Unit Testing:
 - Unit tests for validating addresses and calculating distances function as expected.
 
-All Java files compiled successfully without encountering any errors, and the program's outputs matched the expected results as per test 
+All Java files were compiled successfully without encountering any errors, and the program's outputs matched the expected results as per test 
 scripts. No discrepancies or issues were found during the testing phase.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 **Phase 2**
 
 **Overview:**
-**Additional functionality and modifications are incorporated into assignment 1 to more accurately emulate a real sharing system like Uber app.
-**
+Additional functionality and modifications are incorporated into assignment 1 to more accurately emulate a real sharing system like Uber app.
+
 1. City Map: successfully implemented new method int GetCityZone(String address) that takes a valid address and returns zone number
 accordingly
 
