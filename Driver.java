@@ -5,7 +5,6 @@
  * 
  * This class simulates a car driver in a simple uber app 
  * 
- * Everything has been done for you except the equals() method
  */
 public class Driver 
 {
@@ -125,8 +124,6 @@ public class Driver
   /*
    * Two drivers are equal if they have the same name and license plates.
    * This method is overriding the inherited method in superclass Object
-   * 
-   * Fill in the code 
    */
   public boolean equals(Object other)
   {
