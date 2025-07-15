@@ -4,8 +4,6 @@
 /*
  * 
  * Class that simulates a user of a simple Uber app
- * 
- * Everything has been done for you except equals() method
  */
 public class User 
 {
@@ -101,8 +99,6 @@ public class User
   /*
    * Two users are equal if they have the same name and address.
    * This method is overriding the inherited method in superclass Object
-   * 
-   * Fill in the code
    */
   public boolean equals(Object other)
   {
